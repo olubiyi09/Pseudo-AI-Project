@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech To Text</title>
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row box">
+        <div class="col-md-5 mx-auto border-primary rounded p-3 bg-light">
+          <img class="creator" src="/Images/pic 1.png" alt="" />
+          <p class="text-center">Guest User</p>
+          <form
+            action="https://www.google.com/search"
+            id="search-form"
+            method="get"
+            target="_blank"
+          >
+            <input
+              name="q"
+              id="search-input"
+              placeholder=""
+              autocomplete="off"
+              autofocus
+              type="text"
+              class="form-control fs-3 mt-t"
+            />
+
+            <div
+              id="speech-btn"
+              class="speech-btn pt-1 d-flex justify-content-between"
+            >
+              <p class="instruction">
+                Press Ctrl + X or Click the Mic to start
+              </p>
+
+              <div class="btns">
+                <i class="fas fa-microphone"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Anita Section start here -->
+        <!-- Anita Section start here -->
+        <!-- Anita Section start here -->
+        <div class="col-md-5 mx-auto border-primary rounded p-3 bg-light">
+          <img class="creator" src="/Images/pic 2.png" alt="" />
+          <p class="text-center">Anita</p>
+          <form action="" id="search-form">
+            <textarea
+              name=""
+              id="search-input"
+              cols="30"
+              rows="1"
+              class="form-control fs-3"
+            ></textarea>
+            <div
+              id="speech-btn"
+              class="speech-btn pt-1 d-flex justify-content-between"
+            >
+              <p class="instruction">...</p>
+
+              <div class="btns">
+                <i class="fas fa-microphone"></i>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
