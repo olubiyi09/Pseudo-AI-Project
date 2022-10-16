@@ -107,7 +107,7 @@ function respond(res) {
   speech.pitch = "1";
 
   if (voices) {
-    speech.voice = voices[2];
+    speech.voice = voices[5];
   } else {
     speech.voice = voices[1];
   }

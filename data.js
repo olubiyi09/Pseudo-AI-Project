@@ -1,11 +1,11 @@
 let lists = [
   {
     question: "what is your name",
-    answer: "my name is Anita.",
+    answer: "my name is Meshach.",
   },
   {
     question: "what's your name",
-    answer: "my name is Anita.",
+    answer: "my name is Meshach.",
   },
   {
     question: "what do you do?",
@@ -13,6 +13,6 @@ let lists = [
   },
   {
     question: "introduce yourself",
-    answer: "my name is Anita I help developer write better code.",
+    answer: "my name is Meshach I help developer write better code.",
   },
 ];
